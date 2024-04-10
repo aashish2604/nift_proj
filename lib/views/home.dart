@@ -593,10 +593,8 @@ class _ChatBoxState extends State<ChatBox> {
                             ),
                           ),
                         )
-                      : const Expanded(
-                          child: Center(
-                            child: Text("Your comments will appear here!"),
-                          ),
+                      : Center(
+                          child: Text("Your comments will appear here!"),
                         ),
                   Align(
                     alignment: Alignment.bottomCenter,
